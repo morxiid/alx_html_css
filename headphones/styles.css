@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'my font';
+    src: url(Fonts/SourceSansPro-Bold.otf) format('opentype');
+}
+
+
+body{
+    margin: 0%;
+    
+    background-image: url(./images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover 800px;
+    background-attachment: scroll;
+    background-position: top;
+    font-family: 'my font' sans-serif;
+}
+
+header{
+    
+}
+
+.container{
+    width: 71.45%;
+    margin: auto;
+    padding: 0%;
+    margin-top: 1%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.top-bar{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo img{
+    width: 160.96px;
+    height: 31.18px;
+}
+
+.menu ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 255px;
+    height: 15px;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 30px;
+}
+
+li, a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+main{
+    height: 800px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+    width: 64%;
+    height: 313px;
+    border: 1px black solid;
+    color: rgb(255, 255, 255);
+    margin: 27% auto 10%;
+    text-align: center;
+}
+.text-tow{
+    width: 64%;
+    height: auto;
+    border: 1px black solid;
+    color: rgb(0, 0, 0);
+    margin: 5% auto 0%;
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+p{
+    font-size: 16px;
+    
+    
+}
+
+.second-p{
+    margin-top: 10%;
+}
+
+a:hover{
+    color: #FF6565;
+}
+ button:hover{
+    opacity: 0.9
+ }
+
+ button{
+    color: white;
+    background-color: #FF6565;
+    background-size: 162px 44px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+ }
+
+ h2{
+    font-size: 32px;
+    margin-bottom: 0%;
+ }
+
+ .first-p{
+    margin-top: 0;
+ }
+ .paragraph-3{
+    color: black;
+    
+ }
+
+ .container-tow{
+    width: 71.45%;
+    margin: auto;
+    padding: 0%;
+    margin-top: 10%;
+    height: 100%;
+    border: 1px solid black;
+ }
+ .icons{
+    width: 100%;
+    border: 1px black solid;
+    margin: 0;
+ }
+
